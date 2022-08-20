@@ -1,0 +1,42 @@
+h4{
+    margin-left: 32%;
+    margin-bottom: 0px;
+}
+form {   
+    width: 500px;
+    height: 500px;
+    background-color: beige;
+    border: 2px solid black;
+    margin: 0px auto 0px auto;
+} 
+label,
+input {
+    display: inline-block;
+    margin: 10px auto 10px auto;
+    width: 260px;
+}
+label {
+    width: 30%;
+    text-align: right;
+}
+div{
+    width: 400px;
+    height: 100px;
+    align-content: center;
+    margin: 10% 0% 1% 12%;
+}
+#btnGuardar{
+    
+    width: 20%;
+    margin-left: 1px;
+    margin-top: 12%;
+    box-shadow: 5px 5px rgba(0,0,0,0.5);
+}
+#cancelar{
+    width: 20%;
+    margin-left: 215px;
+    box-shadow: 5px 5px rgba(0,0,0,0.5);
+}
+#categoria{
+    width: 260px;
+}

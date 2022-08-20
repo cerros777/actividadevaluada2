@@ -1,0 +1,44 @@
+table{
+    margin-left: 20%;
+    margin-top: 2%;
+}
+a{
+    border-radius: 5px;
+    background-color: #208454;
+    text-align: left;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+}
+thead{
+    height: 1.3cm;
+}
+img {
+    vertical-align: middle;
+    height: 0.5cm;
+    
+}
+table, th, td{
+    border: 1px solid;  
+    border-collapse: collapse; 
+    background-color: white;
+}
+.grupo1{
+    background-image: none;
+    height: 10px;
+    width: 10px;
+}
+
+div{
+    width: 84%;
+    height: 0.5cm;
+    border-radius: 5px;
+    background-color: #206cc4;
+    color: white;
+    margin: auto;    
+}
+.icono3{
+    border-radius: 5px;
+    background-color: #e03444;
+    color: white; 
+}
