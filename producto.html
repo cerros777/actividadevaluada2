@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <title>Formulario</title>
+        <style>
+            form {
+                width: 40%   
+            } 
+            label,
+            input {
+                display: inline-block;
+            }
+            label {
+                width: 30%;
+                text-align: right;
+            }
+            div{
+                width: 40%;
+                margin: 0 auto;
+            }
+        </style>
+    </head>
+    <body>
+        <h4>Registro de producto</h4>
+        <form action="resultadoformulario.html" method="get">
+            <label>Código:</label>
+            <input type="text" id="codigo"/>
+            <br>
+            <label>Descripción:</label>
+            <input type="text" id="descripción"/>
+            <br>
+            <label>Código de barra:</label>
+            <input type="text" id="codigodebarra"/>
+            <br>
+            <label>Precio unitario:</label>
+            <input type="text" id="preciounitario"/>
+            <br>
+            <label>Stock:</label>
+            <input type="text" id="stock">
+            <br>
+            <label>Proveedor:</label>
+            <input type="text" id="proveedor"/>
+            <br>
+            <label>Estado:</label>
+            <input type="checkbox" id="estado"/>Activo
+            <br>
+            <label>Categoría:</label>
+            <select id="categoria">
+                <option value="1">Categoría 1</option>
+                <option value="2">Categoría 2</option>
+                <option value="3">Categoría 3</option>
+                <option value="4">Categoría 4</option>
+            </select>
+            <br>
+            <div>
+                <input type="submit" id="btnGuardar" value="Guardar"/>
+                <input type="button" id="cancelar" onclick="location.href='index.html';" value="Cancelar"/>
+            </div>
+            </select> 
+            
+        </form>
+    </body>
+</html>
