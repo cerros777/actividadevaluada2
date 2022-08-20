@@ -2,25 +2,53 @@
     <head>
         <title>Formulario</title>
         <style>
-            form {
-                width: 40%   
+            h4{
+                margin-left: 32%;
+                margin-bottom: 0px;
+            }
+            form {   
+                width: 500px;
+                height: 500px;
+                background-color: beige;
+                border: 2px solid black;
+                margin: 0px auto 0px auto;
             } 
             label,
             input {
                 display: inline-block;
+                margin: 10px auto 10px auto;
+                width: 260px;
             }
             label {
                 width: 30%;
                 text-align: right;
             }
             div{
-                width: 40%;
-                margin: 0 auto;
+                width: 400px;
+                height: 100px;
+                align-content: center;
+                margin: 10% 0% 1% 12%;
+            }
+            #btnGuardar{
+                
+                width: 20%;
+                margin-left: 1px;
+                margin-top: 12%;
+                box-shadow: 5px 5px rgba(0,0,0,0.5);
+            }
+            #cancelar{
+                width: 20%;
+                margin-left: 215px;
+                box-shadow: 5px 5px rgba(0,0,0,0.5);
+            }
+            #categoria{
+                width: 260px;
             }
         </style>
     </head>
     <body>
         <h4>Registro de producto</h4>
+        <section>
         <form action="resultadoformulario.html" method="get">
             <label>Código:</label>
             <input type="text" id="codigo"/>
@@ -41,7 +69,7 @@
             <input type="text" id="proveedor"/>
             <br>
             <label>Estado:</label>
-            <input type="checkbox" id="estado"/>Activo
+            <input style="width: 8%" type="checkbox" id="estado"/> Activo
             <br>
             <label>Categoría:</label>
             <select id="categoria">
@@ -58,5 +86,6 @@
             </select> 
             
         </form>
+    </section>
     </body>
 </html>
